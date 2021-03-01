@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-wrapper {
+    display: grid;
+    grid-template-areas:
+        "h h"
+        "n c";
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 2fr 10fr;
+
+    width: 1500px;
+    margin: auto;
+}
+.header {
+    grid-area: h;
+    background: #2ecc71;
+}
+.header img {
+    height: 50px;
+}
+.nav {
+    grid-area: n;
+    background: #16a085;
+}
+.nav__item {
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+.nav__item:hover{
+    background: #212121;
+}
+.nav__item a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.content {
+    grid-area: c;
+    background: #bdc3c7;
+}
