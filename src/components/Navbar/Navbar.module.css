@@ -1,0 +1,17 @@
+.nav {
+    grid-area: n;
+    background: #16a085;
+}
+.nav__item {
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+.nav__item:hover {
+    background: #212121;
+}
+.nav__item a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}

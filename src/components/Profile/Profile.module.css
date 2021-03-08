@@ -1,0 +1,19 @@
+.content {
+    padding: 10px;
+}
+.content__img {
+    height: 400px;
+}
+.message__input {
+    display: block;
+    width: 700px;
+    height: 300px;
+    resize: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.message__btn{
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
