@@ -32,7 +32,7 @@ function Posts() {
                 text="R ecusandae labore, similique ducimus commodi est quae"
             />
             <Post 
-                img="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F02%2Flil-uzi-vert-dj-premiere-kanye-west-robocop-ebro-00.jpg?w=960&cbr=1&q=90&fit=max"
+                img="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F02%2Flil-uzi-vert-dj-premiere-kanye-west-robocop-ebro-00.jpg?w=960&cbr=1&q=90&fit=max   "
                 name="Копылов Митрофан Авксентьевич"
                 text="Esse quos tempora possimus!"
             />

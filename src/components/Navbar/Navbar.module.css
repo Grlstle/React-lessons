@@ -4,13 +4,16 @@
 }
 .nav__item {
     cursor: pointer;
-    padding: 10px;
     transition: 0.3s;
 }
 .nav__item:hover {
     background: #212121;
 }
 .nav__item a {
+    display: block;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
     color: #fff;
     transition: 0.3s;
